@@ -5,9 +5,12 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
+    // variable to check if profile needs to be updated
+    private boolean NeedsUpdating = false;
     public static final String EXTRA_MESSAGE = "com.sreyesnoxgraphics.myfirstapp.MESSAGE";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,7 +30,14 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, DisplayMessageActivity.class);
         EditText editText = (EditText)findViewById(R.id.editText);
         String message = editText.getText().toString();
-        intent.putExtra(EXTRA_MESSAGE, message);
-        startActivity(intent);
+        if (!message.isEmpty())
+        {
+            intent.putExtra(EXTRA_MESSAGE, message);
+            startActivity(intent);
+        }
+        else
+        {
+            Toast.makeText(this, "To display your message, please enter some text...", Toast.LENGTH_SHORT).show();
+        }
     }
 }
