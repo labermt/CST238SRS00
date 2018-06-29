@@ -1,3 +1,21 @@
+/*************************************************************
+ * Author:          Silverio Reyes
+ * Filename:        MainActivity.java
+ * Date Created:    6/26/18 - Mitch Besser-Laber Created .gitignore,
+ *                            README.md, and REPORT.md files
+ *
+ * Date Modified:   6/28/18 - Commit 022486a: Created project and
+ *                            added dependencies
+ *
+ *                  6/29/18 - Created UI layout and function
+ *                            to get user input so that it
+ *                            can be passed as an intent
+ *
+ *                            Input validation also added so
+ *                            that a user knows that they must
+ *                            enter some text for a message to
+ *                            be displayed
+ **************************************************************/
 package com.sreyesnoxgraphics.myfirstapp;
 
 import android.content.Intent;

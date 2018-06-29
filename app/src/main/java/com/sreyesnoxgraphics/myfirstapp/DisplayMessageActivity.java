@@ -1,3 +1,8 @@
+/*************************************************************
+ * Author:          Silverio Reyes
+ * Filename:        DisplayMessageActivity.java
+ * Date Created:    6/29/18 Created UI to display user message
+ **************************************************************/
 package com.sreyesnoxgraphics.myfirstapp;
 
 import android.content.Intent;
