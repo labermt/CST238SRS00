@@ -1,7 +1,7 @@
 # CST238SRS00
 My First App
 
-Name:
+Name: Dixon Yant
 
 Notes: 
 
