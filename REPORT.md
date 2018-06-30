@@ -1,8 +1,8 @@
 # CST238SRS00
 My First App
 
-Name:
+Name: Ruby Felton
 
-Notes: 
+Notes: 06/30/18
 
 Issues:
