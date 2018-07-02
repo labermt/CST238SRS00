@@ -10,11 +10,16 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
-        android:text="TextView"
-        android:textColor="?attr/colorAccent"
+        android:textColor="@color/colorPrimaryDark"
         android:textSize="24sp"
+        app:layout_constrainedWidth="true"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Message With " />
 </android.support.constraint.ConstraintLayout>
