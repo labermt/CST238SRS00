@@ -1,8 +1,12 @@
 # CST238SRS00
 My First App
 
-Name:
+Name: Steven Reeves
 
 Notes: 
 
-Issues:
+Screen mirroring via Vysor, screensharing to projector via Zoom.
+
+Issues: 
+
+Emulator not working, running on local Android device works great. 
