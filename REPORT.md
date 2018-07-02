@@ -1,8 +1,8 @@
 # CST238SRS00
 My First App
 
-Name:
+Name: Steven Reeves
 
 Notes: 
 
-Issues:
+Issues: 
