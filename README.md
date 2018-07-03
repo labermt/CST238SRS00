@@ -16,9 +16,9 @@ Specification:
 
 Create your first app and submit it with a Pull Request.  
 
-Be sure to complete all the instructions, up to and includeing:
+Be sure to complete all the instructions, up to and including:  
 
-https://developer.android.com/training/basics/firstapp/starting-activity#run
+[https://developer.android.com/training/basics/firstapp/starting-activity#run]
 
 For practice at submission, follow the instructions at:  
 [https://github.com/labermt/CST000SRS00] 
